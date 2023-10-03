@@ -21,14 +21,24 @@
             font-size: 0.96rem;
             font-weight: 300;
         }
-       header {
+        header {
             font-family: 'Rubik', Arial, sans-serif;
             color: #fff;
-            font-size: 1rem;
             text-align: center;
             padding: 2.5rem;
             display: block;
         } 
+        h1 {
+            font-family: 'Rubik', Arial, sans-serif;
+            color: #fff;
+            font-size: 1.9rem;
+        }
+        nav#top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
        .btn {
         white-space: nowrap;
         width: 100%;
@@ -38,27 +48,97 @@
 
        }
        .btn a {
-        width: 20%;
+        width: 78.266px;
+        height: 78.266px;
         display: inline-block;
         padding: 5px;
        }
        .btn a img {
         width: 100%;
-        height: auto;
-
        }
+        .infoBtn {
+        white-space: nowrap;
+        width: 100%;
+        display: block;
+        text-align: center;
+        overflow-y: auto;
+        }
+        .infoBtn ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .infoBtn ul li {
+            display: inline-block;
+            width: 78.266px;
+            padding:5px;
+            font-size: 1rem;
+            color: #fff;
+            font-weight:30;
+        }
+        
+        section.totalReceitas {
+            display: flex;
+            justify-content:left;
+            flex-direction: column;
+            margin: 10px;
+            padding: 5px;
+        }
+        .infoTotal h2 {
+            display: flex;
+            justify-content: left;
+            padding: 5px;
+            margin: 5px;
+            font-weight: 300;
+            font-size: 1rem;
+            color: #fff;
+        }
+        .infoTotal span {
+            font-family: 'Rubik', Arial, sans-serif;
+            color: #fff;
+            font-size: 1.9rem;
+            display: inline-block;
+            font-weight: normal;
+            padding: 1px 5px 1px 5px;
+            margin-left: 5px;
+
+        }
+        .eye {
+            display: flex;
+           
+
+        }
     </style>
 </head>
 <body>
     <header>
             <h1>Receitas</h1>
     </header>
-    <nav>
+    <nav id="top">
         <div class="btn">
             <a href="#"><img src="imagens/receitas.png" alt="receitas"></a>
             <a href="#"><img src="imagens/despesas.png" alt="despesas"></a>
-            <a href="#"><img src="imagens/poupaça.png" alt="poupança"></a>
+            <a href="#"><img src="imagens/poupança.png" alt="poupança"></a>
+        </div>
+        <div class="infoBtn">
+            <ul>
+                <li id="receitas">Receitas</li>
+                <li id="despesas">Despesas</li>
+                <li id="poupança">Poupança</li>
+            </ul>
         </div>
     </nav>
+    <section class="totalReceitas">
+        <div class="infoTotal">
+            <h2>Total de receitas</h2>
+            <span class="total">R$: 0.00</span>
+            <div class="eye">
+                <a href="">
+                    <img src="imagens/eye.svg" alt="eye">
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
