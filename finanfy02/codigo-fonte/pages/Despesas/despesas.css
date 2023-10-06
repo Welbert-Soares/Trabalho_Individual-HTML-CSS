@@ -57,10 +57,10 @@ background-image: url("../../assets/background.jpg");
   height: 30px;
 }
 
-.iconNavegation {
+.iconNavigation {
   display: flex;
-  width: 240px;
-  height: 45px;
+  width: 300px;
+  height: 95px;
   justify-content: space-between;
   align-items: center;
 }
@@ -70,7 +70,7 @@ background-image: url("../../assets/background.jpg");
   align-items: center;
   justify-content: center;
   width: 30%;
-  height: 30px;
+  height: 90px;
 }
 
 .divIconExpenses {
@@ -78,16 +78,36 @@ background-image: url("../../assets/background.jpg");
   align-items: center;
   justify-content: center;
   width: 30%;
-  height: 30px;
+  height: 90px;
 }
 
-.divIconProfile {
+.divIconSavings {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 30%;
-  height: 30px;
+  height: 90px;
 }
+
+.iconRecipes {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.iconExpense {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.iconSavings {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+
 
 .mainTitle {
   font-size: 30px;
