@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanfy Despesas</title>
+    <link rel="stylesheet" href="despesas.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <!-- <div class="leftBack"></div> -->
+    <div class="divPage">
+      
+      <!--minha parte abaixo!!-->
+      <div class="firtsHeader">
+        <h1 class="mainTitle">Despesas</h1>
+      </div>
+      <div class="iconNavigation">
+        <div class="divIconRecipes">
+          <img
+            src="../../assets/iconRecipes.png"
+            alt="Icon Recipes"
+            class="iconRecipes"
+          />
+        </div>
+        <div class="divIconExpense">
+          <img
+            src="../../assets/iconExpense.png"
+            alt="Icon Expense"
+            class="iconExpense"
+          />
+        </div>
+        <div class="divIconSavigs">
+          <img
+            src="../../assets/iconSavings.png"
+            alt="Icon Savings"
+            class="iconSavings"
+          />
+        </div>
+      </div>
+      <div class="totalExpense">
+        <div class="divTitleTotalExpense">
+          <h1>Total de despesas</h1>
+        </div>
+        <div class="divtotalAmount">
+          <h1>R$ - 1.924,35</h1>
+        </div>
+        <div class="divIconVisibilityOff">
+          <img 
+          src="../../assets/iconVisibilityOff.svg" alt="Icon Visibility Off"
+          class="iconVisibilityOff"
+          />
+        </div>
+      </div>
+
+      <!--Parte pedro abaixo!!!-->
+      <div class="headerForm">
+        <h1 class="title">Transações</h1>
+        <h1 class="subtitle">Ver tudo</h1>
+      </div>
+
+      <div class="divDespesas">
+        <ul class="list" id="lista"></ul>
+      </div>
+
+      <div class="navigationBar">
+        <div class="divIconHome">
+          <img
+            src="../../assets/iconHome.svg"
+            alt="Icon Home"
+            class="iconHome"
+          />
+        </div>
+
+        <div class="divIconPlus">
+          <img src="../../assets/iconAdd.png" alt="Icon Plus" class="iconPlus" />
+        </div>
+
+        <div class="divIconProfile">
+          <img
+            src="../../assets/profileIcon.svg"
+            alt="Icon Profile"
+            class="iconProfile"
+          />
+        </div>
+      </div>
+
+      <script src="despesas.js"></script>
+
+      <!-- <div id="app">
+        <script src="despesas.js"></script>
+        <script>
+          const app = document.getElementById("app");
+          const buttonComponent1 = createButton("Botão 1", handleClick);
+
+          app.appendChild(buttonComponent1);
+        </script>
+      </div> -->
+    </div>
+    <!-- <div class="rightBack"></div> -->
+  </body>
+</html>
