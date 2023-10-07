@@ -57,10 +57,16 @@ background-image: url("../../assets/background.jpg");
   height: 30px;
 }
 
+.mainTitle {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
 .iconNavigation {
   display: flex;
   width: 300px;
-  height: 95px;
+  height: 85px;
   justify-content: space-between;
   align-items: center;
 }
@@ -107,12 +113,73 @@ background-image: url("../../assets/background.jpg");
   cursor: pointer;
 }
 
+.iconDescription {
+  display: flex;
+  width: 300px;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+}
 
-
-.mainTitle {
-  font-size: 30px;
+.generalDescription {
+  font-size: 16px;
   color: #fff;
+  font-weight: normal;
+  text-align: center;
+  width: 90px;
+  height: 45px;
+}
+
+.divTotalExpense {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 450px;
+  height: 30px;
+}
+
+.titleTotalExpense {
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+  width: 133px;
+}
+
+.lineAmount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  height: 38px;
+  margin-bottom: 25px;
+}
+ 
+.divTotalAmount {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
   font-weight: 700;
+  width: 203px;
+  height: 38;
+}
+
+.divIconVisibilityWhite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.iconVisibilityWhite {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.iconVisibilityWhite:hover {
+ opacity: 1;
 }
 
 /* parte do Pedro abaixo!! */
