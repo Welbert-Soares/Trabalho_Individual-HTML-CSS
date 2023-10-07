@@ -355,6 +355,23 @@ ul::-webkit-scrollbar-thumb:hover {
   .navigationBar {
     width: 300px;
   }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 26px;
+  }
+  .iconNavigation {
+    width: 260px;
+  }
+  .iconDescription {
+    width: 260px;
+  }
+  .divTotalExpense {
+    width: 300px;
+  }
+  .lineAmount {
+    width: 300px;
+  }
 }
 
 @media (min-width: 450px) {
@@ -367,8 +384,25 @@ ul::-webkit-scrollbar-thumb:hover {
   .navigationBar {
     width: 350px;
   }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 30px;
+  }
+  .iconNavigation {
+    width: 310px;
+  }
+  .iconDescription {
+    width: 310px;
+  }
+  .divTotalExpense {
+    width: 350px;
+  }
+  .lineAmount {
+    width: 350px;
+  }
 }
-
+  
 @media (max-width: 600px) {
   .leftBack {
     width: 0%;
@@ -394,6 +428,23 @@ ul::-webkit-scrollbar-thumb:hover {
   .navigationBar {
     width: 400px;
   }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 35px;
+  }
+  .iconNavigation {
+    width: 360px;
+  }
+  .iconDescription {
+    width: 360px;
+  }
+  .divTotalExpense {
+    width: 400px;
+  }
+  .lineAmount {
+    width: 400px;
+  }
 }
 
 @media (min-width: 750px) {
@@ -404,6 +455,23 @@ ul::-webkit-scrollbar-thumb:hover {
     width: 390px;
   }
   .navigationBar {
+    width: 450px;
+  }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 38px;
+  }
+  .iconNavigation {
+    width: 410px;
+  }
+  .iconDescription {
+    width: 370px;
+  }
+  .divTotalExpense {
+    width: 450px;
+  }
+  .lineAmount {
     width: 450px;
   }
 }
@@ -418,6 +486,23 @@ ul::-webkit-scrollbar-thumb:hover {
   .navigationBar {
     width: 500px;
   }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 43px;
+  }
+  .iconNavigation {
+    width: 460px;
+  }
+  .iconDescription {
+    width: 410px;
+  }
+  .divTotalExpense {
+    width: 500px;
+  }
+  .lineAmount {
+    width: 500px;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -428,6 +513,23 @@ ul::-webkit-scrollbar-thumb:hover {
     width: 490px;
   }
   .navigationBar {
+    width: 550px;
+  }
+  /* @media Pedro acima!!*/
+  /* @media Welbert abaixo!!*/
+  .mainTitle {
+    font-size: 45px;
+  }
+  .iconNavigation {
+    width: 490px;
+  }
+  .iconDescription {
+    width: 430px;
+  }
+  .divTotalExpense {
+    width: 550px;
+  }
+  .lineAmount {
     width: 550px;
   }
 }
