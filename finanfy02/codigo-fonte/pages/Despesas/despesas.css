@@ -154,13 +154,18 @@ background-image: url("../../assets/background.jpg");
   margin-bottom: 25px;
 }
  
-.divTotalAmount {
+.resultTotalExpense {
   display: flex;
   color: #fff;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 700;
   width: 203px;
-  height: 38;
+  height: 38px;
+  gap: 10px;
+}
+
+#valueTotalExpense {
+
 }
 
 .divIconVisibilityWhite {
