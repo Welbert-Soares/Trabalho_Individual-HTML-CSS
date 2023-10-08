@@ -163,11 +163,6 @@ background-image: url("../../assets/background.jpg");
   height: 38px;
   gap: 10px;
 }
-
-#valueTotalExpense {
-
-}
-
 .divIconVisibilityWhite {
   display: flex;
   align-items: center;
